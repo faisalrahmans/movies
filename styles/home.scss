@@ -13,7 +13,7 @@
 }
 
 .main-container {
-  padding: 8rem 4rem 2rem 4rem;
+  padding: 4rem 4rem 2rem 4rem;
 }
 
 .footer {
@@ -80,6 +80,16 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.title-page {
+  padding: 8rem 4rem 0rem 4rem;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .title-page {
+    padding: 8rem 4rem 0rem 4rem;
+  }
 }
 
 @media (max-width: 600px) {
